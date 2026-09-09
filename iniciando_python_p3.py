@@ -73,4 +73,3 @@ print(df_data.head(2)) #Serve para otimizar colunas.
 """
 
 
-
