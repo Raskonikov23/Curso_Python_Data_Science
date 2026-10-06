@@ -99,6 +99,23 @@ print(my_array.max(axis=1))
 print(my_array.min())
 print(my_array.sum())
 print(my_array.cumsum())
-"""
 
 #Indices e Fatias de Arrays 
+import numpy as np 
+
+a = np.arange(10)**2 #Cria um array com os quadrados dos números de 0 a 9
+print(a) 
+
+b = np.arange(20).reshape(4,5)
+print(b)
+print(b[1,1]) #Acessando o elemento da segunda linha e segunda coluna
+print(b[1,2:]) #Acessando os elementos da segunda linha, a partir da terceira coluna até o final.
+
+c = np.arange(40).reshape(2,4,5) #Cria um array tridimensional com 2 blocos, 4 linhas e 5 colunas
+print(c)
+print(c[1,1,1]) #Acessando o elemento do segundo bloco, segunda linha e segunda coluna  
+"""
+
+#Operacoes com Vetores e Matrizes
+
+
